@@ -1,22 +1,50 @@
 # rpa-mdt
 
-Mobile Data Terminal (MDT) for Police and Emergency Services.
+<div align="center">
 
-## Features
-- **Dashboard**: Quick view of active warrants and BOLOs.
-- **Database Search**: Search citizens and vehicles.
-- **Reports**: Create and manage incident reports.
-- **Tablet Anim**: Plays tablet animation when open.
+![GitHub Release](https://img.shields.io/github/v/release/RP-Alpha/rpa-mdt?style=for-the-badge&logo=github&color=blue)
+![GitHub commits](https://img.shields.io/github/commits-since/RP-Alpha/rpa-mdt/latest?style=for-the-badge&logo=git&color=green)
+![License](https://img.shields.io/github/license/RP-Alpha/rpa-mdt?style=for-the-badge&color=orange)
+![Downloads](https://img.shields.io/github/downloads/RP-Alpha/rpa-mdt/total?style=for-the-badge&logo=github&color=purple)
 
-## Installation
-1. Ensure `rpa-lib` is started.
-2. Add `ensure rpa-mdt` to your `server.cfg`.
+**Mobile Data Terminal**
 
-## Usage
-- Press Keybind (Default: `K`) as a police/ems job to open.
+</div>
 
-## Credits
-- RP-Alpha Development Team
+---
 
-## License
-MIT
+## ✨ Features
+
+- 📊 **Dashboard** - Quick view of warrants and BOLOs
+- 🔍 **Database Search** - Lookup citizens and vehicles
+- 📝 **Reports** - Create and manage incident reports
+- 📱 **Tablet Animation** - Immersive prop usage
+
+---
+
+## 📥 Installation
+
+1. Download the [latest release](https://github.com/RP-Alpha/rpa-mdt/releases/latest)
+2. Extract to your `resources` folder
+3. Add to `server.cfg`:
+   ```cfg
+   ensure rpa-mdt
+   ```
+
+---
+
+## ⌨️ Controls
+
+| Key | Action |
+|-----|--------|
+| `K` | Open MDT (Police/EMS only) |
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/RP-Alpha">RP-Alpha</a></sub>
+</div>

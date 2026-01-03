@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP-Alpha MDT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app" class="hidden">
+        <div class="tablet-frame">
+            <div class="sidebar">
+                <div class="profile-summary">
+                    <div class="avatar"><i class="fa-solid fa-user-shield"></i></div>
+                    <div class="officer-name" id="officer-name">Officer Name</div>
+                    <div class="officer-rank" id="officer-rank">Rank</div>
+                </div>
+                <nav>
+                    <button class="nav-btn active" data-page="dashboard"><i class="fa-solid fa-chart-line"></i>
+                        Dashboard</button>
+                    <button class="nav-btn" data-page="profiles"><i class="fa-solid fa-users"></i> Profiles</button>
+                    <button class="nav-btn" data-page="vehicles"><i class="fa-solid fa-car"></i> Vehicles</button>
+                    <button class="nav-btn" data-page="reports"><i class="fa-solid fa-file-contract"></i>
+                        Reports</button>
+                    <button class="nav-btn" data-page="warrants"><i class="fa-solid fa-gavel"></i> Warrants</button>
+                </nav>
+                <button class="logout-btn" onclick="closeMDT()"><i class="fa-solid fa-power-off"></i> Logout</button>
+            </div>
+            <div class="content-area">
+                <header>
+                    <h2 id="page-title">Dashboard</h2>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search database...">
+                    </div>
+                </header>
+                <div id="page-content">
+                    <!-- Dynamic Content -->
+                    <div class="dashboard-stats">
+                        <div class="stat-card">
+                            <h3>Active Units</h3>
+                            <span class="stat-value">12</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Active Warrants</h3>
+                            <span class="stat-value">5</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Recent Reports</h3>
+                            <span class="stat-value">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

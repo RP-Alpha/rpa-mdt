@@ -18,6 +18,7 @@ files {
     'html/script.js'
 }
 
+shared_script 'config.lua'
 client_script 'client/main.lua'
 server_script 'server/main.lua'
 

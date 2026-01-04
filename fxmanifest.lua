@@ -5,6 +5,11 @@ author 'RP-Alpha'
 description 'RP-Alpha Mobile Data Terminal'
 version '1.0.0'
 
+dependencies {
+    'rpa-lib',
+    'oxmysql'
+}
+
 ui_page 'html/index.html'
 
 files {

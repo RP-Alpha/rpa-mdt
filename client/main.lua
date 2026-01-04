@@ -1,6 +1,6 @@
 local display = false
 
-RegisterNetEvent('rpa-mdt:client:open', function(data) {
+RegisterNetEvent('rpa-mdt:client:open', function(data)
     SetNuiFocus(true, true)
     display = true
     SendNUIMessage({
@@ -17,7 +17,7 @@ RegisterNetEvent('rpa-mdt:client:open', function(data) {
         
         -- Prop? usually handled by animation or explicit prop creation
     end
-})
+end)
 
 RegisterNUICallback('close', function(data, cb)
     SetNuiFocus(false, false)
